@@ -8,53 +8,139 @@
       <link rel="stylesheet" href="styles.css" type="text/css" />
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
             crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="node_modules/aos/dist/aos.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" type="text/css" />
+      <script src="node_modules/aos/dist/aos.js"></script>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
             crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
             crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
+
+      <script>
+            function openNav() {
+                  document.getElementById("mySidenav").style.width = "100%";
+            }
+
+            function closeNav() {
+                  document.getElementById("mySidenav").style.width = "0";
+            }
+
+      </script>
+
       <title>Digitale Spielkultur</title>
 </head>
 <header>
 
+
 </header>
 
 <body>
-      <div class="container-fluid title-img-1" style="height: 100%; position: relative">
+      <script>
+            AOS.init();
+      </script>
+      <div id="mySidenav" class="sidenav">
 
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="list-group p-3">
+                  <a href="#test" onclick="closeNav()" class="list-group-item list-group-item-action ">
+                        <div class="d-flex w-100 justify-content-between">
+                              <h5 class="mb-1">List group item heading</h5>
+                              <small>3 days ago</small>
+                        </div>
+                        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                        <small>Donec id elit non mi porta.</small>
+                  </a>
+                  <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                              <h5 class="mb-1">List group item heading</h5>
+                              <small class="text-muted">3 days ago</small>
+                        </div>
+                        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                        <small class="text-muted">Donec id elit non mi porta.</small>
+                  </a>
+                  <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                              <h5 class="mb-1">List group item heading</h5>
+                              <small class="text-muted">3 days ago</small>
+                        </div>
+                        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                        <small class="text-muted">Donec id elit non mi porta.</small>
+                  </a>
+            </div>
 
-            <div class="row justify-content-center align-items-center " style="top: 20%; position: inherit ">
-                  <div class="col-10 ">
-                        <h1 class="display-3" style="color:rgb(113, 113, 113); text-align: center">
-                              Bildungspotenziale von Simulationsspiele Kerbal Space Program
-                        </h1>
+      </div>
+
+      <div class="main" style="min-height: 100%; height: 100%">
+
+            <div class="container-fluid title-img-1" style="min-height: 100%; height: 100%; position: relative">
+
+                  <span style="font-size:30px;cursor:pointer" onclick="openNav()">
+                        <i class="fas fa-bars"></i>
+                  </span>
+                  <div class="row justify-content-center align-items-center " style="top: 20%; position: inherit ">
+                        <div class="col-10 ">
+                              <h1 data-aos="fade-up-right" data-aos-duration="2600" class="display-3" style="color:rgb(199, 199, 199); text-align: center; background-color: black; opacity: 0.8">
+                                    Bildungspotenziale von Simulationsspiele Kerbal Space Program
+                              </h1>
+                        </div>
                   </div>
+            </div>
+
+            <div class="container-fluid " style="height: 100%; ">
+
+
+                  <div class="row align-items-center justify-content-start py-3 px-3">
+                        <div class="col-12">
+                              <h1 class="display-2">
+                                    Inhalt
+                              </h1>
+                        </div>
+                        <div class="col-12 ">
+                              <div class="list-group">
+                                    <a href="#" class="list-group-item list-group-item-action ">
+                                          <div class="d-flex w-100 justify-content-between">
+                                                <h5 class="mb-1">List group item heading</h5>
+
+                                          </div>
+                                          <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus
+                                                varius blandit.
+                                          </p>
+
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action">
+                                          <div class="d-flex w-100 justify-content-between">
+                                                <h5 class="mb-1">List group item heading</h5>
+
+                                          </div>
+                                          <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus
+                                                varius blandit.
+                                          </p>
+
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action">
+                                          <div class="d-flex w-100 justify-content-between">
+                                                <h5 class="mb-1">List group item heading</h5>
+
+                                          </div>
+                                          <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus
+                                                varius blandit.
+                                          </p>
+
+                                    </a>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+            <div class="container-fluid body-img-1" id="test" style="height: 100%; ">
+
+
+
             </div>
       </div>
 
-      <div class="container-fluid " style="height: 100%; ">
-
-
-            <div class="row align-items-center justify-content-center" style="height: 50%">
-                  <div class="col-6 ">
-                        <p>
-                              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                              aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-                              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-                              dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-                              et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-                              et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                        </p>
-                  </div>
-            </div>
-      </div>
-
-      <div class="container-fluid body-img-1" style="height: 100%; ">
-
-
-
-      </div>
 </body>
 
 </html>
